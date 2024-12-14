@@ -4,11 +4,15 @@ class Mago {
     const resistenciaMagica
     const nombre
     var energiaMagica
-    var categoria
+    const categoria
+
+    method categoria() = categoria
 
     method cantidadDeLetrasEnNombre(){
         return nombre.size()
     }
+
+    method energiaMagica() = energiaMagica
 
     method resistenciaMagica() = resistenciaMagica
 
@@ -73,6 +77,6 @@ object magoInmortal {
     }
 
     method consecuenciaDePerderEnfrentamiento(unMago){
-        return false // no pierde
+        return unMago.energiaMagica() // no pierde
     }
 }
