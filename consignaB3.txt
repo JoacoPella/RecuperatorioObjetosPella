@@ -1,0 +1,3 @@
+Entiendo que Wollok trate las colecciones como un conjunto de objetos, al igual que a una colección que 
+dentro tenga objetos y colecciones de objetos. Gracias a esto, el comportamiento de la solución implementada 
+no se vería afectada, además, siendo listaDeIntegrantes un set, no se permitirían magos repetidos.
