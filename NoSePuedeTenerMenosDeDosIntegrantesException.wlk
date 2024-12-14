@@ -1,0 +1,1 @@
+class NoSePuedeTenerMenosDeDosIntegrantesException inherits Exception(message = "No se puede tener menos de dos integrantes") {}

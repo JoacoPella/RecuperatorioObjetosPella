@@ -1,3 +1,4 @@
+import NoSePuedeTenerMenosDeDosIntegrantesException.*
 import Mago.*
 
 class Gremio {
@@ -7,6 +8,12 @@ class Gremio {
 el initialize() es para test, uso la exception si la lista de
 integrantes tiene menos de dos integrantes
 */
+
+    method tieneMenosDeDosIntegrantes(){
+        if(listaDeIntegrantes.size() < 2){
+            throw new NoSePuedeTenerMenosDeDosIntegrantesException()
+        }
+    }
 
     method poderTotal(){
         return self.listaDePoderesDeIntegrantes().sum()
