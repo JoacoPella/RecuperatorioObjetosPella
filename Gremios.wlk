@@ -2,7 +2,7 @@ import NoSePuedeTenerMenosDeDosIntegrantesException.*
 import Mago.*
 
 class Gremio {
-    const listaDeIntegrantes 
+    const listaDeIntegrantes = #{} 
 
 /*
 el initialize() es para test, uso la exception si la lista de
