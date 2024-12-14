@@ -25,7 +25,7 @@ class Mago {
     }
 
     method poderDeSusObjetos(){
-        return objetosMagicos.filter({ objeto => objeto.poderAportado(self) })
+        return objetosMagicos.map({ objeto => objeto.poderAportado(self) })
     }
 
     method sumarEnergiaMagica(cantidadASumar){
